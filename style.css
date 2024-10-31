@@ -1,0 +1,173 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+form {
+    width: fit-content;
+}
+
+fieldset {
+    width: -webkit-fill-available;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 1rem 2rem 2rem 2rem;
+   
+}
+
+button {
+    color: white;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 2px;
+    height: 1.5rem;
+}
+
+label:not(.radio-option, .checkbox-option) {
+    display: inline-block;
+    width: 200px;
+}
+
+div:not(div div, div.logo) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input, select {
+    line-height: 1rem;
+}
+
+.btn-green {
+    background-color: #33845B;
+}
+
+.btn-green:hover {
+    background-color: #33845bad;
+  
+}
+
+.radius-2 {
+    border-radius: 2px;
+}
+
+.btn-gray {
+    background-color: #dfdfdf;
+    color: black;
+}
+
+.btn-gray:hover {
+    background-color: #c9c7c7f0;
+}
+
+.active {
+    display: block;
+}
+
+.disabled {
+    display: none;
+}
+
+/* Input */
+.text-40 {
+    width: 40ch;
+}
+
+.text-30 {
+    width: 30ch;
+}
+
+.text-10 {
+    width: 10ch;
+}
+
+.margin-2 {
+    margin-top: 2rem;
+}
+
+.d-inline-block {
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.valid-input {
+    border-color: #33845B;
+}
+
+.error-input {
+    border-color: #f95919;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A1710;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 1rem;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logo img {
+    max-height: 40px; 
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #0A1710;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Button */
+#button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar, .nav-links {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+    .text-30, .text-40 {
+        width: 20ch;
+    }
+}
