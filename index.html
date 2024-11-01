@@ -9,22 +9,23 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar">
-        <a class="logo" href="#"><img src="./assets/crypta.png" alt="Crypta Logo"></a>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#"><img src="./assets/crypta.png" alt="Crypta Logo"></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <form>
             <h2>
                 Step <span id="current-step"></span>
             </h2>
             <fieldset class="active" id="personal-info">
-                
                 <div>
                     <label for="firstname">First Name:</label>
                     <input class="text-40" type="text" id="firstname" name="firstname" maxlength="40" placeholder="Enter your first name" required>
