@@ -10,7 +10,11 @@
         fill: #32845a;
       }
 
-      .cls-3, .cls-4 {
+      .cls-3 {
+        fill: #221e1f;
+      }
+
+      .cls-4 {
         fill: #fffeff;
       }
 
