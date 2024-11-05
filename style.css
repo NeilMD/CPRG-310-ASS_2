@@ -42,6 +42,7 @@ button {
 label:not(.radio-option, .checkbox-option) {
     display: inline-block;
     width: 200px;
+    font-weight: 500;
 }
 
 div:not(div div, div.logo) {
