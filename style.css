@@ -20,6 +20,7 @@ main {
 
 form {
     width: fit-content;
+    margin-top: 1rem;
 }
 
 fieldset {
@@ -50,6 +51,14 @@ div:not(div div, div.logo) {
 
 input, select {
     line-height: 1rem;
+}
+
+legend {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: white;
+    width: fit-content;
 }
 
 .btn-green {
@@ -160,8 +169,7 @@ input, select {
     justify-content: space-between;
 }
 
-/* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .navbar, .nav-links {
         flex-direction: column;
         padding: 0;
@@ -169,6 +177,6 @@ input, select {
     }
 
     .text-30, .text-40 {
-        width: 20ch;
+        width: 30ch;
     }
 }

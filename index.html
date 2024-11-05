@@ -25,9 +25,7 @@
         <form>
             <fieldset class="active" id="personal-info">
                 <legend>
-                    <h2> 
-                        Step <span id="current-step"></span>
-                    </h2>
+                   Step 1 Personal Information
                 </legend>
                 <div>
                     <label for="firstname">First Name:</label>
@@ -97,7 +95,9 @@
             </fieldset>
         
             <fieldset class="disabled margin-2" id="financial-info">
-                
+                <legend>
+                    Step 2 Financial Information
+                </legend>
                 <div>
                     <label for="income">Annual Income:</label>
                     <input class="text-40" type="number" id="income" name="income" placeholder="Enter your annual income" required>
@@ -114,7 +114,9 @@
             </fieldset>
         
             <fieldset class="disabled margin-2" id="investment-profile">
-                
+                <legend>
+                    Step 3 Investment Profile
+                </legend>
                 <div>
                     <label for="experience">Investment Experience:</label>
                     <select class="text-40" id="experience" name="experience" required>
@@ -154,7 +156,9 @@
             </fieldset>
         
             <fieldset class="disabled margin-2" id="terms-conditions">
-                
+                <legend>
+                    Step 4 Terms and Conditions
+                </legend>
                 <div>
                     <input type="checkbox" id="agree" name="agree" value="yes" required>
                     <label class="checkbox-option" for="agree">I agree to the <a href="#">terms and conditions</a></label>

@@ -46,9 +46,6 @@ const stepName = [
 ]
 
 const load = (step) => {
-    // set header title
-    document.getElementById("current-step").innerHTML = `${step.stepNo} : ${step.stepname}`;
-
     // reset button states
     document.getElementById("next-button").classList.remove("active", "disabled");
     document.getElementById("previous-button").classList.remove("active", "disabled");
